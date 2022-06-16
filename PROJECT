@@ -9,7 +9,7 @@ resources:
     namespaced: true
   controller: true
   domain: mamachanko.com
-  group: mamachanko.com
+  group: things
   kind: Thing
   path: github.com/mamachanko/rr-test/api/v1alpha1
   version: v1alpha1
