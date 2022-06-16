@@ -1,0 +1,6 @@
+apiVersion: mamachanko.com.mamachanko.com/v1alpha1
+kind: Thing
+metadata:
+  name: thing-sample
+spec:
+  # TODO(user): Add fields here

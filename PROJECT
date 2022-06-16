@@ -1,0 +1,16 @@
+domain: mamachanko.com
+layout:
+- go.kubebuilder.io/v3
+projectName: rr-test
+repo: github.com/mamachanko/rr-test
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: mamachanko.com
+  group: mamachanko.com
+  kind: Thing
+  path: github.com/mamachanko/rr-test/api/v1alpha1
+  version: v1alpha1
+version: "3"
