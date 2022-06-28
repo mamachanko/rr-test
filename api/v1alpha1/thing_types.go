@@ -30,6 +30,8 @@ type ThingSpec struct {
 
 	// Foo is an example field of Thing. Edit thing_types.go to remove/update
 	Foo string `json:"foo,omitempty"`
+
+	TLSEnabled bool `json:"tlsEnabled"`
 }
 
 // ThingStatus defines the observed state of Thing
